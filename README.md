@@ -6,15 +6,17 @@
 
 materi praktikum:
 
-* [html](https://github.com/DemtimCod/Modul-)
-* [css](https://github.com/DemtimCod/Modul-html/blob/main/Img-modul-html.md)
-* [java script](https://github.com/DemtimCod/Modul-html/blob/main/Formatting-modul-html.md)
-* [php](https://github.com/DemtimCod/Modul-html/blob/main/tabel-modul-html.md) 
+* [html](https://github.com/abrordc/laprak-pemogramanweb/tree/main/HTML-pemogramanweb)
+* [css](https://github.com/abrordc/laprak-pemogramanweb/tree/main/CSS-pemogramanweb)
+* [java script](https://github.com/abrordc/laprak-pemogramanweb/tree/main/JS-pemogramanweb)
+* [php](https://github.com/abrordc/laprak-pemogramanweb/tree/main/PHP-pemogramanweb) 
 
 
 
 
-<code>author{
+<code>
+author{
   username: "abrordc", 
   semester: 4
-}<code/>
+}
+<code/>
