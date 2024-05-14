@@ -14,9 +14,9 @@ materi praktikum:
 
 
 
-<code>
-author{
+```json
+author: {
   username: "abrordc", 
   semester: 4
 }
-<code/>
+```
