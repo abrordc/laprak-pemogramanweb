@@ -14,7 +14,7 @@ materi praktikum:
 
 
 
-```json
+```
 author: {
   username: "abrordc", 
   semester: 4
