@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>audio</title>
+    </head>
+    <body>
+        <!-- penulisan tag audio di html -->
+        <audio>
+          <!-- src disi alamat / path audio
+          sedangkan type di isi tipe audionya -->
+          
+            <source
+                src="https://github.com/petanikode/belajar-html/raw/master/audio/Ngoni.mp3"
+                type="audio/mpeg"
+            />
+        </audio>
+        <!-- untuk mengontrol audio tambahkan attribut control -->
+        <audio controls>
+            <source
+                src="https://github.com/petanikode/belajar-html/raw/master/audio/Ngoni.mp3"
+                type="audio/mpeg"
+            />
+        </audio>
+        <!-- untuk memutar audio otomatis bisa tambah kan attribut autoplay -->
+        <audio controls autoplay>
+            <source
+                src="https://github.com/petanikode/belajar-html/raw/master/audio/Ngoni.mp3"
+                type="audio/mpeg"
+            />
+        </audio>
+        <!-- Catatan: Atribut ini mungkin saja tidak akan bekerja pada Google Chrome, karena ada perubahan policy (kebijakan) dalam memutar audio secara otomatis. -->
+
+        <!-- dan utuk mebisukan/siled tambahkan attribut muted -->
+        <audio controls autoplay muted>
+            <source
+                src="https://github.com/petanikode/belajar-html/raw/master/audio/Ngoni.mp3"
+                type="audio/mpeg"
+            />
+            <!-- teks ini akan muncul jika browser tidak support -->
+            web browser tidak support harap uprade
+        </audio>
+    </body>
+</html>

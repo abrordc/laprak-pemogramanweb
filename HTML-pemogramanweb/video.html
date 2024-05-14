@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>video</title>
+    </head>
+    <body>
+        <!-- video jugak sama kayak audio memilik beberapa attribut yang sama  -->
+        <!-- attribut: 
+        controls true/false untuk menampilkan control video
+        autoplay true/false memutar video otomatis 
+        poster img path untuk menentukan gambar cover
+        loop true/false untuk mengulang video
+        playsinline true/false untuk memutar video secara inline
+        muted  true/false membisukan video
+        width&height angka untuk mengatur lebar atau panjang video
+        -->
+        <h1>video</h1>
+        <video controls>
+            <source
+                src="https://www.petanikode.com/img/html-video/cat-herd.webm"
+                type="video/webm"
+            />
+        </video>
+        <h1>gif video</h1>
+        <!-- Caranya sama seperti menambahkan video biasa, tapi kita harus mengaktifkan beberapa atribut seperti autoplay, muted, playsinline dan loop. -->
+        <video autoplay loop muted playsinline>
+            <source
+                src="https://www.petanikode.com/img/html-video/cat-herd.webm"
+                type="video/webm"
+            />
+        </video>
+
+        <!-- membuat video memiliki subtitle -->
+        <h1>Video Subtitle</h1>
+        <video controls>
+            <source
+                src="https://www.petanikode.com/img/html-video/cat-herd.webm"
+                type="video/webm"
+            />
+            <source
+                src="https://www.petanikode.com/img/html-video/cat-herd.webm"
+                type="video/mp4"
+            />
+            <track
+                src="src/cat-herd-id.vtt"
+                kind="subtitles"
+                srclang="id"
+                label="Indonesia"
+            />
+        </video>
+
+        <h1>Menmabahkan Video dari Youtube</h1>
+        <iframe
+            height="315"
+            width="560"
+            src="https://youtube.com/embed/Tuaujxv3IL8"
+        ></iframe>
+        <!-- Perhatikan URL yang digunakan pada atribut src, di sana kita menggunakan /embed/. Ini adalah halaman yang digunakan khusus untuk embed video dari Youtube. -->
+    </body>
+</html>

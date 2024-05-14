@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="in">
+    <head>
+     <!--  by abrordc -->
+        <meta charset="UTF-8" />
+        <title>By Love DemtimCod</title>
+        <style>
+            xmp {
+                color: red;
+                font-size: 20px;
+            }
+            .code-board {
+                background-color: #f1f1f1;
+                border: 1px solid #ccc;
+                padding: 10px;
+                font-family: monospace;
+            }
+            .code-board pre {
+                white-space: pre-wrap;
+            }
+            .code-board button {
+                margin-top: 10px;
+            }
+            input {
+                width: 200px;
+                height: 50px;
+                font-size: 24px;
+            }
+            p {
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>MACAM-MACAM INPUT Di HTML</h1>
+        <h2>sytax ada dibawah beserta tampilan nya</h2>
+
+        <div class="code-board">
+            <textarea id="codeOutput"><input type="text"></textarea>
+            <button onclick="copyCode(this.previousElementSibling)">
+                Salin
+            </button>
+        </div>
+
+        <p>
+            text
+            <input type="text" maxlength="1" />
+        </p>
+        <div class="code-board">
+            <textarea id="codeOutput"><input type="week"></textarea>
+            <button onclick="copyCode(this.previousElementSibling)">
+                Salin
+            </button>
+        </div>
+
+        <p>
+            week
+            <input type="week" />
+        </p>
+
+        <div class="code-board">
+            <textarea id="codeOutput"><input type="url"></textarea>
+            <button onclick="copyCode(this.previousElementSibling)">
+                Salin
+            </button>
+        </div>
+
+        <p>
+            url
+            <input type="url" />
+        </p>
+
+        <div class="code-board">
+            <textarea id="codeOutput"><input type="datetime-local"></textarea>
+            <button onclick="copyCode(this.previousElementSibling)">
+                Salin
+            </button>
+        </div>
+
+        <p>
+            datetime-local
+            <input type="datetime-local" maxlength="1" />
+        </p>
+
+        <div class="code-board">
+            <textarea id="codeOutput"><input type="password"></textarea>
+            <button onclick="copyCode(this.previousElementSibling)">
+                Salin
+            </button>
+        </div>
+
+        <p>
+            password
+            <input type="password" />
+        </p>
+
+        <div class="code-board">
+            <textarea id="codeOutput"><input type="radio"></textarea>
+            <button onclick="copyCode(this.previousElementSibling)">
+                Salin
+            </button>
+        </div>
+        <p>
+            radio
+            <input type="radio" />
+        </p>
+
+        <div class="code-board">
+            <textarea id="codeOutput"><input type="checbox"></textarea>
+            <button onclick="copyCode(this.previousElementSibling)">
+                Salin
+            </button>
+        </div>
+        <p>
+            checkbox
+            <input type="checkbox" />
+        </p>
+
+        <div class="code-board">
+            <textarea id="codeOutput"><input type="button"></textarea>
+            <button onclick="copyCode(this.previousElementSibling)">
+                Salin
+            </button>
+        </div>
+        <p>
+            button
+            <input type="button" value="button" />
+        </p>
+
+        <div class="code-board">
+            <textarea id="codeOutput"><input type="file"></textarea>
+            <button onclick="copyCode(this.previousElementSibling)">
+                Salin
+            </button>
+        </div>
+        <p>
+            file
+            <input type="file" />
+        </p>
+
+        <div class="code-board">
+            <textarea id="codeOutput"><input type="date"></textarea>
+            <button onclick="copyCode(this.previousElementSibling)">
+                Salin
+            </button>
+        </div>
+        <p>
+            tanggal
+            <input type="date" />
+        </p>
+
+        <div class="code-board">
+            <textarea id="codeOutput"><input type="time"></textarea>
+            <button onclick="copyCode(this.previousElementSibling)">
+                Salin
+            </button>
+        </div>
+        <p>
+            waktu
+            <input type="time" />
+        </p>
+
+        <div class="code-board">
+            <textarea id="codeOutput"><input type="range"></textarea>
+            <button onclick="copyCode(this.previousElementSibling)">
+                Salin
+            </button>
+        </div>
+        <p>
+            range
+            <input type="range" />
+        </p>
+
+        <div class="code-board">
+            <textarea id="codeOutput"><input type="number"></textarea>
+            <button onclick="copyCode(this.previousElementSibling)">
+                Salin
+            </button>
+        </div>
+        <p>
+            number
+            <input type="number" />
+        </p>
+
+        <div class="code-board">
+            <textarea id="codeOutput"><input type="search"></textarea>
+            <button onclick="copyCode(this.previousElementSibling)">
+                Salin
+            </button>
+        </div>
+        <p>
+            search
+            <input type="search" />
+        </p>
+
+        <div class="code-board">
+            <textarea id="codeOutput"><input type="image"></textarea>
+            <button onclick="copyCode(this.previousElementSibling)">
+                Salin
+            </button>
+        </div>
+        <p>
+            image
+            <input type="image" src="https://unsplash.it/400/200" />
+        </p>
+
+        <div class="code-board">
+            <textarea id="codeOutput"><input type="tel"></textarea>
+            <button onclick="copyCode(this.previousElementSibling)">
+                Salin
+            </button>
+        </div>
+        <p>
+            tel
+            <input type="tel" />
+        </p>
+
+        <div class="code-board">
+            <textarea id="codeOutput"><input type="color"></textarea>
+            <button onclick="copyCode(this.previousElementSibling)">
+                Salin
+            </button>
+        </div>
+        <p>
+            color
+            <input type="color" />
+        </p>
+
+        <div class="code-board">
+            <textarea id="codeOutput"><input type="month"></textarea>
+            <button onclick="copyCode(this.previousElementSibling)">
+                Salin
+            </button>
+        </div>
+        <p>
+            bulan
+            <input type="month" />
+        </p>
+
+        <div class="code-board">
+            <textarea id="codeOutput"><input type="submit"></textarea>
+            <button onclick="copyCode(this.previousElementSibling)">
+                Salin
+            </button>
+        </div>
+        <p>
+            submit
+            <input type="submit" value="submit" />
+        </p>
+
+        <div class="code-board">
+            <textarea id="codeOutput"><input type="reset"></textarea>
+            <button onclick="copyCode(this.previousElementSibling)">
+                Salin
+            </button>
+        </div>
+        <p>
+            reset
+            <input type="reset" />
+        </p>
+
+        <div class="code-board">
+            <textarea id="codeOutput"><input type="hidden"></textarea>
+            <button onclick="copyCode(this.previousElementSibling)">
+                Salin
+            </button>
+        </div>
+
+        <p>
+            hidden
+            <input type="hidden" value="hilang" />
+        </p>
+
+        <script>
+            function copyCode(input) {
+                input.select();
+                document.execCommand("copy");
+            }
+        </script>
+    </body>
+</html>

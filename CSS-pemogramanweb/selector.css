@@ -1,0 +1,20 @@
+/* beberapa contoh selector css  
+1. menggunakan tag html  
+2. menggunakan class  
+3. menggunakan id  */
+
+h1 {
+  transform: 140deg;
+}
+.class-selector {
+  margin: 5rem;
+}
+
+#id-selector {
+  max-height: 100%;
+}
+
+/* menggunakan attribut di html  */
+input[type="text"] {
+ padding: 0.5rem;
+}

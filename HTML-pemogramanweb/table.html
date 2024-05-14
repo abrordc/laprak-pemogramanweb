@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Judul halaman</title>
+    </head>
+    <h1>table from</h1>
+    <table
+        border="1"
+        width="100%"
+        style="border-collapse: collapse"
+        align="center"
+    >
+      <!-- tr table row untuk membuat table row -->
+        <tr>
+            <th rowspan="2" width="20">No</th>
+            <th colspan="2" bgcolor="yellow">Nama Siswa</th>
+            <th rowspan="2" width="">Alamat</th>
+            <th rowspan="2" witdh="50">Kelas</th>
+        </tr>
+        <!-- kolom satu -->
+        <tr>
+            <td align="center">Nama Depan</td>
+            <td align="center">Nama Belakang</td>
+        </tr>
+        <tr>
+            <td align="center">1</td>
+            <td>achmad</td>
+            <td>zulpekre</td>
+            <td>jaksel</td>
+            <td align="center">XII</td>
+        </tr>
+        <!-- kolom dua -->
+        <tr>
+            <td align="center">2</td>
+            <td>abd</td>
+            <td>rohman</td>
+            <td>bandung</td>
+            <td align="center">XI</td>
+        </tr>
+        <tr>
+            <td align="center">3</td>
+            <td>miftah</td>
+            <td>surur</td>
+            <td>tanggerang</td>
+            <td align="center">XI</td>
+        </tr>
+        <tr>
+            <td align="center">4</td>
+            <td>ahmad</td>
+            <td>faruq</td>
+            <td>jakbar</td>
+            <td align="center">XI</td>
+        </tr>
+        <tr>
+            <td align="center">5</td>
+            <td>samiuddin</td>
+            <td>kertoyo</td>
+            <td>gotam city</td>
+            <td align="center">XI</td>
+        </tr>
+        <form method="get">
+            <input
+                type="search"
+                placeholder="cari siswa..."
+                name="searcing"
+                required
+            />
+            <button type="submit" class="button_1" name="cari">cari</button>
+        </form>
+    </table>
+    <body>
+        <style>
+            from {
+                position: center;
+            }
+            .button_1:hover {
+                color: red;
+                tetx-transfrom: capitalize;
+            }
+            tr > td {
+                text-align: center;
+            }
+        </style>
+    </body>
+</html>
