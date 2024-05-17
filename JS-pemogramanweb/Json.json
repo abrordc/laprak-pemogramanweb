@@ -1,0 +1,14 @@
+{
+  "data" : {
+    "name": "abrordc",
+    "universitas": {
+      "prodi": "informatika",
+      "semester": 4
+    },
+    "hoby":
+    [
+      "ngoding",
+      "ngoprek"
+    ]
+  }
+}

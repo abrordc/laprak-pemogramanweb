@@ -1,0 +1,23 @@
+{
+  "name": "js-pemogramanweb",
+  "version": "1.0.0",
+  "description": "js pemrograman web",
+  "main": "index.js",
+  "type": "module", 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/https://github.com/abrordc/laprak-pemogramanweb"
+  },
+  "keywords": [
+    "web",
+    "js",
+    "html",
+    "php",
+    "boostrap"
+  ],
+  "author": "abrordc",
+  "license": "ISC"
+}
