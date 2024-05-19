@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    border: 4px solid #eee;
+    padding: 10px;
+    margin: 10px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 35px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+p {
+    text-indent: 40px;
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: #086;
+}

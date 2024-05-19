@@ -1,0 +1,47 @@
+/* :link: Menambahkan style pada link yang belum pernah di kunjungi atau klik
+:visited: Menambahkan style pada link yang sudah pernah di kunjungi */
+/* 
+:hover adalah kelas semu CSS yang memungkinkan Anda untuk mengubah tampilan elemen saat pengguna mengarahkan kursor mouse ke atasnya. Ini sering digunakan untuk memberikan umpan balik visual kepada pengguna saat mereka berinteraksi dengan elemen, seperti tautan atau tombol */
+/*  :active CSS mewakili elemen yang diaktifkan oleh pengguna, seperti tombol. Saat menggunakan mouse, "aktivasi" biasanya dimulai saat pengguna menekan tombol utama mouse. */
+.joinBtnActive,
+.joinBtnHover {
+    width: 10em;
+    height: 5ex;
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.joinBtnActive:active {
+    box-shadow: 2px 2px 5px #fc894d;
+}
+
+.joinBtnHover:hover {
+    box-shadow: 3px 3px 6px skyblue;
+}
+
+/* untuk penjelasan ada di atas */
+/* link active*/
+a:link {
+    color: blue;
+}
+/* visetid active */
+a:visited {
+    color: purple;
+}
+/* hover active*/
+a:hover {
+    background: yellow;
+}
+/* link active*/
+a:active {
+    color: red;
+}
+
+/* paragrap active */
+p:active {
+    background: #eee;
+}
